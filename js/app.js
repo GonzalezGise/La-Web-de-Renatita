@@ -1,14 +1,23 @@
-jQuery('document').ready(function($){
+$(function () {
 
-    var icono_menu = $('.icono-menu'),
-        menu = $('nav ul');
+    $('.icono-menu').click(function () {
 
-
-
-icono_menu.click(function(){
-    menu.addClass('.show');
+        $('nav ul').toggleClass("show")
+    })
 
 });
 
 
-});
+/* Lo anterior tambien lo puedo hacer así. El toggleClass es mas practico (una especie de On / Off)
+
+
+if ($('nav ul').hasClass('show')) {
+    $('nav ul').removeClass("show")
+}
+else {
+    $('nav ul').addClass("show")
+}
+
+*/
+
+
