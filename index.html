@@ -4,45 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>ATANER</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylenew.css">
+    <script src="https://kit.fontawesome.com/0e88b30c31.js" crossorigin="anonymous"></script>
+   
+    
 
 </head>
 
-<body class= "fondo-violeta-oscuro">
-    <header class="header">
-        <nav class="navbar navbar-expand-sm navbar-dark">
-            <ul class="navbar-nav ">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/acerca_de.html">Acerca de mi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/contacto.html">Donde Encontrarme</a>
-                </li>
-            </ul>
-        </nav>
+<body class="fondo-oscuro">
+    <header>
+        <div class="icono-nav-conteiner">
+            <span class="icono-menu"><i class="fas fa-paw"></i></span>
+            <nav>
+                <ul class="nav_links">
+                    <li>
+                        <a href="index.html"> <i class="fas fa-paw"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="pages/acerca_de.html"><i class="fas fa-paw"></i> Acerca de mi</a>
+                    </li>
+                    <li>
+                        <a href="pages/contacto.html"><i class="fas fa-paw"></i> Donde Encontrarme</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <a href="pages/formularios.html"><button class="suscribite">Suscribite</button> </a>
+
     </header>
 
-    <h1 class="alineado">Renatita la gatita</h1>
-    <h3 class="alineado"> Welcome to Renata's space </h3>
-    <img class=tamanio-estandar src="Imagenes/Renata1.jpeg" alt="Renatita1" width="300" height="400">
-    <br>
-    <a href="pages/fotos.html">For more photos click here beibe</a>
+    <div class="conteiner">
+        <div class="">
+            <h1 class="alineado gradient-text-1">Renatita la gatita</h1>
+            <h3 class="alineado gradient-text-2"> Welcome to Renata's space </h3>
+        </div>
+
+        <br>
+        <img src="Imagenes/Renata1.jpeg" alt="Renatita1" id="imagen-home">
+        <br><br>
+        <a href="pages/fotos.html"><span class="link-sub"><i class="fas fa-cat"></i> For more photos click here
+                <i class="fas fa-cat" style="transform: scaleX(-1);"></i></span></a>
+    </div>
+
+    <footer>
+        <div>Derechos reservados por Renata &copy</div>
+    </footer>
 
 
-    <footer>Derechos reservados por Renata </footer>
-
-
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
