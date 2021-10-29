@@ -1,0 +1,58 @@
+
+
+/*ESTILO CONTEINER*/
+.container_form{
+    background-color: #dda4d1;
+    margin: 1.3rem auto;
+    padding: 2.5rem;
+    border-radius: 110px;
+}
+
+/*ESTILOS CAMPOS FORM*/
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #7a0867;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(221, 25, 188, 0.25);}
+
+
+.form-check-input:checked {
+        background-color: #740758;
+        border-color: #be10a1;
+     }
+   
+.form-check-input:focus {
+        border-color: #d600dd;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(243, 6, 192, 0.25);
+}
+
+
+.btn-primary{
+    background-color:#740758;
+    border-color: #470249;
+}
+
+
+/*MEDIA QUERYS*/
+
+@media only screen and (max-width: 1024px){
+    
+    .col-6{
+        width: 66.66666667%;
+    }
+
+}
+
+
+@media only screen and (max-width: 612px){
+    
+    .col-6{
+        width: 83.33333333%;
+    }
+
+    .col-8{
+        width: 83.33333333%;
+    }
+}
